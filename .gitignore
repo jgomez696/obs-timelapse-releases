@@ -9,3 +9,7 @@ Thumbs.db
 # Temp files
 *.tmp
 *.log
+*.zip
+
+# Large binaries (uploaded to releases)
+ffmpeg.exe
