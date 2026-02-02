@@ -1,9 +1,9 @@
 {
-    "latest_version": "0.6.1",
+    "latest_version": "0.6.2",
     "min_version": "0.5.0",
     "download_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/latest/download/obs-timelapse.dll",
     "installer_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/latest/download/OBS-TimeLapse-Installer.exe",
-    "changelog": "Version 0.6.1:\n- Test update cycle\n- Installer auto-update verification",
+    "changelog": "Version 0.6.2:\n- Auto-add source to scene on OBS startup\n- Source is visible by default\n- Improved OBS frontend API integration",
     "release_date": "2026-02-01",
     "release_notes_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/tag/v0.6.1",
     "checksums": {
