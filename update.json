@@ -1,11 +1,11 @@
 {
-    "latest_version": "0.6.0",
+    "latest_version": "0.6.1",
     "min_version": "0.5.0",
     "download_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/latest/download/obs-timelapse.dll",
     "installer_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/latest/download/OBS-TimeLapse-Installer.exe",
-    "changelog": "Version 0.6.0:\n- UUID validation with Kamil's API\n- Improved GDI+ timestamp rendering\n- Better session management\n- Debug logging improvements",
+    "changelog": "Version 0.6.1:\n- Test update cycle\n- Installer auto-update verification",
     "release_date": "2026-02-01",
-    "release_notes_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/tag/v0.6.0",
+    "release_notes_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/tag/v0.6.1",
     "checksums": {
         "obs-timelapse.dll": {
             "sha256": ""
