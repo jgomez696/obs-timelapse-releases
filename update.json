@@ -1,11 +1,11 @@
 {
-    "latest_version": "0.6.3",
+    "latest_version": "0.6.4",
     "min_version": "0.5.0",
     "download_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/latest/download/obs-timelapse.dll",
     "installer_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/latest/download/OBS-TimeLapse-Installer.exe",
-    "changelog": "Version 0.6.3:\n- FFmpeg auto-detection from common locations\n- Download FFmpeg button in plugin UI\n- Installer prompts to download FFmpeg if not found\n- Debug mode with 9-click activation\n- Upload enabled by default\n- Fixed video compilation issues",
+    "changelog": "Version 0.6.4:\n- Locked capture interval (default 1 second) unless debug mode\n- Locked model name (default betterwebcam.com) unless debug mode\n- Default output path set to user's Videos folder\n- Locked Timestamp Overlay settings unless debug mode\n- Visual feedback for FFmpeg Auto-Detect and Download buttons\n- Upload enabled by default with locked server URL",
     "release_date": "2026-02-01",
-    "release_notes_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/tag/v0.6.3",
+    "release_notes_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/tag/v0.6.4",
     "checksums": {
         "obs-timelapse.dll": {
             "sha256": ""
