@@ -1,11 +1,11 @@
 {
-    "latest_version": "0.6.5",
+    "latest_version": "0.6.6",
     "min_version": "0.5.0",
     "download_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/latest/download/obs-timelapse.dll",
     "installer_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/latest/download/OBS-TimeLapse-Installer.exe",
-    "changelog": "Version 0.6.5:\n- All settings locked by default (except FFmpeg buttons)\n- FFmpeg validation on START TEST\n- 9-click debug mode to unlock all settings\n- FFmpeg download from GitHub releases",
-    "release_date": "2026-02-01",
-    "release_notes_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/tag/v0.6.5",
+    "changelog": "Version 0.6.6:\n- Delete frames after compilation enabled by default\n- Capture interval changed to 0.5 seconds by default",
+    "release_date": "2026-02-02",
+    "release_notes_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/tag/v0.6.6",
     "checksums": {
         "obs-timelapse.dll": {
             "sha256": ""
