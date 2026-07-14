@@ -1,14 +1,17 @@
 {
-    "latest_version": "0.6.64",
+    "latest_version": "0.6.65",
     "min_version": "0.5.0",
     "download_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/latest/download/obs-timelapse.dll",
     "installer_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/latest/download/OBS-TimeLapse-Installer.exe",
-    "changelog": "Version 0.6.1:\n- Test update cycle\n- Installer auto-update verification",
-    "release_date": "2026-02-01",
-    "release_notes_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/tag/v0.6.1",
+    "changelog": "Version 0.6.65:\n- Delete local video/metadata after the server confirms the upload (configurable)\n- Automatic upload retry with backoff; failed uploads retried at next session end and OBS launch\n- Startup sweeper removes orphaned temp frame folders and clears already-uploaded leftover videos\n- Temp frames now cleaned up even when FFmpeg fails or is missing",
+    "release_date": "2026-07-03",
+    "release_notes_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/tag/v0.6.65",
     "checksums": {
         "obs-timelapse.dll": {
-            "sha256": ""
+            "sha256": "cea1202b32b56074232ebb1406a7292fd8dfa9c0054380daa5acd23dec67b155"
+        },
+        "OBS-TimeLapse-Installer.exe": {
+            "sha256": "09e3cc01f6a0c2c94d9c01b2488b8fac085960917a6b9cf55af843e1234acf53"
         }
     },
     "requirements": {
