@@ -1,17 +1,17 @@
 {
-    "latest_version": "0.6.65",
+    "latest_version": "0.6.66",
     "min_version": "0.5.0",
     "download_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/latest/download/obs-timelapse.dll",
     "installer_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/latest/download/OBS-TimeLapse-Installer.exe",
-    "changelog": "Version 0.6.65:\n- Delete local video/metadata after the server confirms the upload (configurable)\n- Automatic upload retry with backoff; failed uploads retried at next session end and OBS launch\n- Startup sweeper removes orphaned temp frame folders and clears already-uploaded leftover videos\n- Temp frames now cleaned up even when FFmpeg fails or is missing",
-    "release_date": "2026-07-03",
-    "release_notes_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/tag/v0.6.65",
+    "changelog": "Version 0.6.66 (stability and security):\n- Fix crash: a malformed Content-Length on the local port could terminate OBS\n- Fix crash: an unresolved image encoder handed GDI+ an uninitialized CLSID on every frame\n- Fix corruption: model names with accents or non-ASCII characters broke frame paths\n- Fix data races between the capture, server and UI threads (session data and settings)\n- Harden the local server: loopback-only, request limits, timeouts and path validation\n- Remove the shell from the FFmpeg pipeline and sanitize output file names\n- Stronger uninstall: closes OBS and fully removes the plugin so it no longer keeps running after removal",
+    "release_date": "2026-07-15",
+    "release_notes_url": "https://github.com/jgomez696/obs-timelapse-releases/releases/tag/v0.6.66",
     "checksums": {
         "obs-timelapse.dll": {
-            "sha256": "cea1202b32b56074232ebb1406a7292fd8dfa9c0054380daa5acd23dec67b155"
+            "sha256": "5ae974c060b194db068cff3b349ccc4eba610f2dffdc5c7e35b48554918983ce"
         },
         "OBS-TimeLapse-Installer.exe": {
-            "sha256": "09e3cc01f6a0c2c94d9c01b2488b8fac085960917a6b9cf55af843e1234acf53"
+            "sha256": "5b895da9a37a9740d576a138db61624093dc3e057526f1d23f54b7be43c6f32b"
         }
     },
     "requirements": {
